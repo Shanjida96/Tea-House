@@ -29,6 +29,44 @@
       </script>
 </head>
 <body>
-    
+    <!-- main content -->
+     <main class="max-w-screen-xl mx-auto px-16 lg:px-28px">
+        <!-- header section-->
+         <header class="flex pt-10 mb-20">
+            <!-- text content -->
+           <div>
+            <h1 class="text-5xl md:text-7xl">It's good <br> tea time at The <br>Tea House</h1>
+            <br>
+            <p class="text-gray-500 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>  
+            <br> 
+            <!-- w-3/4 takes 3/4th width . used to ame it in two lines -->
+            <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold text-xl">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+        </div>
+           <!-- image content -->
+            <!-- (-)rotate-45: has minus in the front. rotates at the opposite direction -->
+           <div class="relative">
+            <!-- image -->
+            <div>
+                <img class= "w-full" src="images/banner.png" alt="">
+            </div>
+            <!-- Card -->
+            <!-- to move this we have to make its container(image content) relative and make the 
+             icon absolute and move it -->
+            <div class="flex absolute items-center bg-white shadow-lg p-2 
+            md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-32 lg:left-28">
+            <!-- top-28 for small device -->
+                <!-- icon -->
+                <div class=>
+                    <i class="fa-solid fa-star text-2xl text-yellow-300"></i>
+                </div>
+                 <!-- Text -->
+                <div class="ml-2">
+                    <h2 class="lg: text-2xl font-bold">5.00</h2>
+                    <p class=""text-gray-500>Trust Pilot Ratings</p>
+                </div>
+            </div>
+           </div>
+         </header>
+     </main>
 </body>
 </html>
